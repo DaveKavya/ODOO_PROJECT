@@ -43,11 +43,11 @@ const BudgetPlanner = () => {
               <div className="flex justify-between items-start mb-6">
                  <div>
                     <p className="text-sm font-medium text-slate-500 mb-1">Total Spent</p>
-                    <h2 className="text-4xl font-extrabold text-slate-900">${totalSpent.toLocaleString()}</h2>
+                    <h2 className="text-4xl font-extrabold text-slate-900">₹{totalSpent.toLocaleString()}</h2>
                  </div>
                  <div className="text-right">
                     <p className="text-sm font-medium text-slate-500 mb-1">Total Budget</p>
-                    <h3 className="text-xl font-bold text-slate-700">${totalBudget.toLocaleString()}</h3>
+                    <h3 className="text-xl font-bold text-slate-700">₹{totalBudget.toLocaleString()}</h3>
                  </div>
               </div>
 
@@ -88,7 +88,7 @@ const BudgetPlanner = () => {
                     <h3 className="font-bold text-lg">Remaining</h3>
                     <PieChart size={24} className="text-blue-200" />
                  </div>
-                 <p className="text-3xl font-bold mb-2">${(totalBudget - totalSpent).toLocaleString()}</p>
+                 <p className="text-3xl font-bold mb-2">₹{(totalBudget - totalSpent).toLocaleString()}</p>
                  <p className="text-blue-100 text-sm">You have safe margin for activities.</p>
               </Card>
 
@@ -99,7 +99,7 @@ const BudgetPlanner = () => {
                     </div>
                     <ArrowUpRight size={18} className="text-slate-400 group-hover:text-emerald-500" />
                  </div>
-                 <p className="text-slate-500 text-sm">AI found $120 savings in activities.</p>
+                 <p className="text-slate-500 text-sm">AI found ₹120 savings in activities.</p>
               </Card>
            </div>
         </div>
@@ -127,7 +127,7 @@ const BudgetPlanner = () => {
                          </div>
                       </div>
                       <span className="font-bold text-slate-700">
-                         ${e.amount.toFixed(2)}
+                         ₹{e.amount.toFixed(2)}
                       </span>
                    </div>
                  ))}
