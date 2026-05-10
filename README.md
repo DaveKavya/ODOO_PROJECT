@@ -4,55 +4,68 @@ Traveloop is a full-stack web application that helps users plan personalized tri
 
 ---
 
-## Features
+##  Features
+
 - User Authentication (Sign Up / Sign In)
 - Smart Travel Dashboard UI
 - Personalized Trip Planning System
 - Destination & Itinerary Management
 - PostgreSQL Database Integration
-- Fully Responsive UI
+- Fully Responsive UI (Mobile + Desktop)
 
 ---
 
-## Tech Stack
+##  Tech Stack
 
-**Frontend:** React (Vite), JavaScript, CSS/Tailwind  
-**Backend:** Node.js, Express.js , flask 
-**Database:** PostgreSQL  
-**Tools:**  REST API, Git & GitHub  
+Frontend: React (Vite), JavaScript, CSS / Tailwind  
+Backend: Node.js, Express.js, Flask  
+Database: PostgreSQL  
+Tools: REST API, Git & GitHub  
 
 ---
 
-##  Setup
+##  Setup Instructions
 
-1️⃣Clone Repo
-```bash
-git clone https://github.com/your-username/traveloop.git
-cd traveloop
-2️⃣ Backend
-cd backend
-npm install
-node server.js
-3️⃣ Frontend
-cd traveloop
-npm install
-npm run dev
+Clone the repository:
+git clone https://github.com/your-username/traveloop.git  
+cd traveloop  
+
+Install backend dependencies:
+cd backend  
+npm install  
+node server.js  
+
+Install frontend dependencies:
+cd traveloop  
+npm install  
+npm run dev  
+
 ---
 
-## Future Scope
-AI-powered itinerary generation
-Google Maps integration
-JWT authentication
-Hotel & flight APIs
-Deployment on cloud
-----
+##  Future Scope
+
+- AI-powered itinerary generation  
+- Google Maps integration  
+- JWT authentication system  
+- Hotel & flight API integration  
+- Cloud deployment  
+
+---
+
 ## 🎥 Live Demo
 
-Watch the project demo video here: https://tinyurl.com/5n7kknyy
+Watch the project demo video here:  
+https://tinyurl.com/5n7kknyy  
+
 ---
 
-## Team
-Coding Guru — Traveloop Project
+##  Team
+Coding Guru — Traveloop Project  
+Team leader : Shreya Parikh
+Mentor : Ravi Bhingradiya
+---
 
-Backend runs on localhost:5000
-Frontend runs on localhost:5173
+
+Backend runs on: http://localhost:5000  
+Frontend runs on: http://localhost:5173  
+Make sure PostgreSQL is running before starting backend  
