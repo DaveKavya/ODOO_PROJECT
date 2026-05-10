@@ -23,21 +23,9 @@ Traveloop is a full-stack web application that helps users plan personalized tri
 
 ---
 
-## 📁 Project Structure
-traveloop/
-│
-├── backend/ # Node + Express APIs
-├── traveloop/ # React Frontend
-├── database/ # PostgreSQL schema
-├── .gitignore
-└── README.md
-
-
----
-
 ##  Setup
 
-1️⃣ Clone Repo
+1️⃣Clone Repo
 ```bash
 git clone https://github.com/your-username/traveloop.git
 cd traveloop
@@ -49,7 +37,6 @@ node server.js
 cd traveloop
 npm install
 npm run dev
-
 ---
 
 ## Future Scope
@@ -58,10 +45,11 @@ Google Maps integration
 JWT authentication
 Hotel & flight APIs
 Deployment on cloud
-
+----
 ## 🎥 Live Demo
 
 Watch the project demo video here: https://tinyurl.com/5n7kknyy
+---
 
 ## Team
 Coding Guru — Traveloop Project
