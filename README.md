@@ -1,8 +1,6 @@
-# 🌍 Traveloop — AI Powered Travel Planner
+## Traveloop — AI Powered Travel Planner
 
 Traveloop is a full-stack web application that helps users plan personalized trips with smart itinerary management, secure authentication, and PostgreSQL database integration.
-
----
 
 ##  Features
 
@@ -13,16 +11,12 @@ Traveloop is a full-stack web application that helps users plan personalized tri
 - PostgreSQL Database Integration
 - Fully Responsive UI (Mobile + Desktop)
 
----
-
 ##  Tech Stack
 
 Frontend: React (Vite), JavaScript, CSS / Tailwind  
 Backend: Node.js, Express.js, Flask  
 Database: PostgreSQL  
 Tools: REST API, Git & GitHub  
-
----
 
 ##  Setup Instructions
 
@@ -40,8 +34,6 @@ cd traveloop
 npm install  
 npm run dev  
 
----
-
 ##  Future Scope
 
 - AI-powered itinerary generation  
@@ -50,22 +42,16 @@ npm run dev
 - Hotel & flight API integration  
 - Cloud deployment  
 
----
-
 ## 🎥 Live Demo
 
 Watch the project demo video here:  
 https://tinyurl.com/5n7kknyy  
 
----
-
 ##  Team
+
 Coding Guru — Traveloop Project  
 Team leader : Shreya Parikh
 Mentor : Ravi Bhingradiya
----
 
-
-Backend runs on: http://localhost:5000  
 Frontend runs on: http://localhost:5173  
 Make sure PostgreSQL is running before starting backend  
