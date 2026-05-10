@@ -1,8 +1,21 @@
 # ODOO_PROJECT
 
-TEAM NAME : Coding Guru
-Team Leader : Shreya Parikh
-Mentor Name : Ravi Bhingradiya
+##  Team Information
 
-Team member 1 : Kavya Dave
-Team member 2 : Janhavhi More
+###  Team Name
+**Coding Guru**
+
+###  Team Leader
+**Shreya Parikh**
+
+###  Mentor
+**Ravi Bhingradiya**
+
+---
+
+##  Team Members
+
+1. **Kavya Dave**  
+2. **Janhavhi More**
+
+---
